@@ -10,7 +10,7 @@ public class PalindromeChecker
     {
         if (string.IsNullOrWhiteSpace(fromUser))
         {
-            throw new ArgumentException("Вв не повинно бути порожнім в текстовому полі або складатися лише з пробілів.");
+            throw new ArgumentException("Введенне не повинно бути порожнім в текстовому полі або складатися лише з пробілів.");
         }
         FromUser = fromUser;
     }
